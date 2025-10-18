@@ -1,0 +1,11 @@
+function pow(exponent) {
+  return function(number) {
+    return number ** exponent;
+  }
+}
+
+var square = pow(2);
+var cube = pow(3);
+
+console.log(square(3)); // 9
+console.log(cube(3)); // 27
