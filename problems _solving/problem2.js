@@ -20,5 +20,5 @@ function pingPongTracker() {
         return "Wow, I have wasted a lot of time";
       }
     }
-  };
-}
+    
+  
