@@ -1,5 +1,4 @@
-import React from 'react';
-import LoginPage from './LoginPage';
+import LoginPage from './components/pages/LoginPage/LoginPage';
 
 function App() {
   return (
@@ -10,4 +9,3 @@ function App() {
 }
 
 export default App;
-
