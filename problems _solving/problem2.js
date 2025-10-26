@@ -20,5 +20,10 @@ function pingPongTracker() {
         return "Wow, I have wasted a lot of time";
       }
     }
-    
-  
+  };
+}
+
+var myGame = pingPongTracker();
+console.log(myGame.playOneGame());
+console.log(myGame.timeSpentPlaying());
+console.log(myGame.myLevel());
